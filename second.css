@@ -1,0 +1,142 @@
+body {
+    background-color: black;
+    margin: 0; 
+    padding: 0;
+}
+
+#registration {
+    text-align: center;
+    padding: 100px 0; 
+    background-image: url(pics/signnn.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+#registration h1 {
+    font-family: "Bebas Neue";
+    margin-bottom:10px;
+    font-size: 400%;
+}
+
+form {
+    display: block;
+    margin: 0 auto; 
+    text-align: left;
+    font-family: "Nunito";
+    font-size: medium;
+    width: 50%; 
+    max-width: 600px; 
+    color: #fff;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+form input {
+    width: 100%; 
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid white;
+    background-color: black;
+    color: #fff;
+    border-radius: 10px; 
+}
+
+form button {
+    display: block; 
+    margin: 20px auto; 
+    padding: 10px 20px;
+    border: none;
+    background-color: #d6001f;
+    color: white;
+    font-size: medium;
+    cursor: pointer;
+    width: 70%; 
+    font-family: "Nunito";
+    border-radius: 20px;
+    text-align: center;
+    font-size: 110%;
+}
+
+form button:hover {
+    background-color: darkred;
+}
+
+.form-control i {
+    position: absolute;
+    right: 10px;
+    top: 40px;
+    visibility: hidden; 
+}
+
+.form-control.success i.fa-check-circle {
+    visibility: visible;
+}
+
+.form-control.error i.fa-exclamation-circle {
+    visibility: visible; 
+}
+
+.form-control small {
+    visibility: hidden; 
+    color: red; 
+    margin: 0; 
+    padding: 0; 
+    position: relative; 
+    top: -5px; 
+    font-size: 12px; 
+    display: block; 
+}
+
+.form-control.error small {
+    visibility: visible;
+}
+.notification {
+    position: fixed; 
+    top: 20px;
+    right: 20px; 
+    background-color: #4CAF50; 
+    color: white;
+    padding: 15px;
+    border-radius: 5px; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); 
+    z-index: 1000; 
+    font-family: "Nunito";
+    font-size: 14px;
+}
+
+.hidden {
+    display: none;
+}
+/* When input is valid */
+.form-control.success input {
+    border-color: #4CAF50; 
+    background-color: #000000; 
+}
+
+/* When input has an error */
+.form-control.error input {
+    border-color: #f44336; 
+    background-color: #000000; 
+}
+.hidden {
+    display: none;
+}
+h2{
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    font-family: "Nunito";
+    margin: auto;
+    padding-left: 2%;
+}
+a{
+    color:white;
+}
+a:hover {
+    color: #d6001f;
+}

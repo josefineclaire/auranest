@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    margin: 0; 
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-image: url(pics/rec1.gif);
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+
+header {
+    position: relative; 
+}
+
+
+h1 {
+    color:#d6001f;
+    font-size: 180px;
+    text-align: center;
+    font-family: "Economica";
+    text-shadow: 
+        0px -15px 0px #7e0013a2, 
+        0px -30px 0px #7a001283
+}
+#section {
+    width: 100%;
+    height: 100vh;
+    display: flex; 
+    background-position: center;
+    background-size: cover;
+    background-image: url(pics/aura1.gif);
+    padding: 2%; 
+    box-sizing: border-box;
+
+}
+h2, p {
+    margin: 0; 
+    line-height: 1.2; 
+    
+
+}
+h2 {
+    color: white;
+    font-size: 70px;
+    text-align: left;
+    font-family: "Bebas Neue";
+    
+}
+
+p {
+    color: black;
+    font-size: 80px;
+    text-align: left;
+    font-family: "Bebas Neue";
+}
+
+.title-col{
+    display: flex;          
+    flex-direction: column;  
+    justify-content: center; 
+    align-items: flex-start; 
+    height: 90%;            
+    margin-top: 5%;    
+
+}
+
+.title-log {
+    display: flex;             
+    flex-direction: column;    
+    justify-content: center;   
+    align-items: center;       
+    padding: 2% 7%;           
+    text-align: center;        
+    margin-left: auto;         
+    height: auto;
+}
+
+.title-log img {
+    max-width: 250px;          
+    height: auto;              
+}
+
+.title-log h2 {
+    color: white;            
+    font-size: 70px;           
+    font-family: "Bebas Neue"; 
+}
+
+.title-log p {
+    color: lightgray;          
+    font-size: 18px;           
+    font-family: "Nunito";
+}
+.title-log button {
+    border: none;              
+    border-radius: 50px;      
+    padding: 10px 20px;        
+    font-size: 16px;          
+    font-family: "Nunito"; 
+    cursor: pointer;           
+    transition: all 0.3s ease;
+    margin: 10px;              
+    width: 180px;             
+    height: 50px;             
+    display: inline-block;     
+    text-align: center;        
+}
+
+.title-log button[type="Sign In"] {
+    background-color: #d6001fed;     
+    color: white;             
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+}
+
+.title-log button[type="Sign In"]:hover {
+    background-color: darkred; 
+}
+
+.title-log button[type="Guest"] {
+    background-color: transparent; 
+    color: white;                  
+    border: 2px solid black;       
+}
+
+.title-log button[type="Guest"]:hover {
+    background-color: black;       
+    color: white;                  
+}
+footer {
+    background-color: #d6001fed; 
+    padding: 5px 0;              
+    width: 100%;                
+    display:flex;
+    font-family: "Nunito", sans-serif; 
+}
+
+footer p {
+    margin: 0 auto;              
+    max-width: 800px;            
+    color: rgb(255, 255, 255);  
+    font-size: 12px;           
+    line-height: 1.4;            
+    font-family: "Nunito", sans-serif; 
+    text-align: center;
+}
+
+
+
+

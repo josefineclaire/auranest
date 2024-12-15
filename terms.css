@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden; 
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    margin: 0; 
+}
+
+.container{
+   margin: 0;
+   background-image: url(signnn.png);
+   padding: 130px 0 0 0;
+   background-repeat: no-repeat; 
+   background-position: center top;
+   background-size: cover;
+   height: 100vh;
+}
+h1{
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    font-family: "Bebas Neue";
+    margin-bottom: auto;
+    margin:auto;
+}
+h2{
+    color: white;
+    font-size: 20px;
+    text-align: left;
+    font-family: "Nunito";
+    margin: auto;
+    padding-left: 2%;
+}
+.accordion-content {
+    display: none;
+    padding: 10px; 
+    background-color: #000000; 
+    color: #f5f5f5; 
+    font-family: 'Nunito', sans-serif; 
+    font-size: 16px; 
+    line-height: 1.5; 
+    border-top: 1px solid #333; 
+    padding-left: 2%;
+}
+.accordion-header {
+    background: #000000;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    text-align: left;
+    width: 100%;
+    font-size: 20px; 
+    font-family: "nunito";
+    padding-left: 2%;
+}
+.accordion-header:focus {
+    outline: none;
+}
+.accordion-item.active .accordion-content {
+    display: block;
+}

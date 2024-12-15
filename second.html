@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>AuraNest</title>
+        <link rel="icon" href="pics/brand-logo.png" type="image/png">
+        <link rel="stylesheet" href="second.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Economica:ital,wght@0,400;0,700;1,400;1,700&family=Great+Vibes&family=Hammersmith+One&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Economica:ital,wght@0,400;0,700;1,400;1,700&family=Great+Vibes&family=Hammersmith+One&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Economica:ital,wght@0,400;0,700;1,400;1,700&family=Great+Vibes&family=Hammersmith+One&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <section id="registration">
+            <h1>Create an Account</h1>
+            
+            <form id="registrationForm">
+            <div class="form-control">
+                <label for="firstName">First Name*</label>
+                <input type="text" id="firstName" name="firstName" >
+                <i class="fa fa-check-circle"></i>
+                <i class="fa fa-exclamation-circle"></i>
+                <small>Error Message</small>
+            </div>
+    
+            <div class="form-control">
+                <label for="lastName">Last Name*</label>
+                <input type="text" id="lastName" name="lastName" >
+                <i class="fa fa-check-circle"></i>
+                <i class="fa fa-exclamation-circle"></i>
+                <small>Error Message</small>
+            </div>
+
+            <div class="form-control">
+                <label for="email">Email*</label>
+                <input type="email" id="email" name="email" placeholder="hello@email.com" >
+                <i class="fa fa-check-circle"></i>
+                <i class="fa fa-exclamation-circle"></i>
+                <small>Error Message</small>
+            </div>
+            
+            <div class="form-control">
+                <label for="password">Password*</label>
+                <input type="password" id="password" name="password" >
+                <i class="fa fa-check-circle"></i>
+                <i class="fa fa-exclamation-circle"></i>
+                <small>Error Message</small>
+            </div>
+            <div id="successMessage" class="notification hidden">Registration Successful!</div>
+            <h2>By clicking on sign in, you agree to AuraNest's <a href="terms.html">Terms and Conditions of use.</a></h2>
+            <button type="submit" id="registerButton">Sign In</button>
+            <h2>Already have an account? <a href="log.html">Log in.</a></h2>
+        </body>
+        <script src="second.js"></script>
+</html>
